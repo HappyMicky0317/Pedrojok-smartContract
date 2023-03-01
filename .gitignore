@@ -1,0 +1,36 @@
+# misc
+.DS_Store
+
+.env*
+!.env.example
+
+*.log
+
+node_modules
+.npmrc*
+.env
+
+#Hardhat files
+cache/
+coverage
+coverage.json
+docs
+
+typechain
+/typechain-types
+
+/artifacts
+
+flattened*
+gas-report*
+
+deployments/hardhat*
+deployments/localhost*
+
+exports/localhost*
+exports/hardhat*
+
+generated/localhost*
+generated/hardhat*
+
+secret.json
